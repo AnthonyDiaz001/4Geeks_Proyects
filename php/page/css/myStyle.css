@@ -1,0 +1,114 @@
+
+.myBackground {
+
+	background-color: #300000;
+}
+
+.myHeader {
+
+	background-color: #200000;
+	width: 100%;
+	height: 100px;
+}
+
+.myFooter {
+
+    background-color: #600b00;
+    width: 100%;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    padding-right: 32px; 
+    padding-left: 32px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+    text-decoration: none;
+    color: white;
+}
+
+.myCurrentPage {
+
+    background-color: #111111;
+    text-decoration: none;
+}
+
+.myFooter ul {margin: 0; padding: 0; float: left; background-color: #600b00;}
+.myFooter ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.myFooter ul li:after {content:" | "}
+.myFooter ul li:last-child:after {content:"";}
+.myFooter p {margin: 0; padding-right: 3px;}
+.myFooter li, p {text-decoration: none; color: #039def; margin: 0 10px;}
+.myFooter li:first-child a {margin-left: 4px;}
+.myFooter a:hover, .myFooter a:active {text-decoration: underline;}
+
+.myTitle{
+
+    text-align: center;
+}
+
+.myInfo {
+
+    color: white;
+    text-align: center;
+}
+
+.myTitle h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: white;
+}
+
+.myTitle h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    color: white;
+}
+
+.myTitle h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+    color: white;
+}
+
+.myTitle h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+    color: white;
+}
+
+.myTitle h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+    color: white;
+}
+
+.myTitle h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+    color: white;
+}
